@@ -1,4 +1,5 @@
-# Alzheimer's Disease Detection and Classification
+# Alzheimer Scanner - For Alzheimer's Disease Detection and Classification
+
 
 Working on early detection of Alzheimer's Disease using deep learning and ML approaches, with optimization via CSA (Crow Search Algorithm). Since AD is progressive and gets harder to treat later on, catching it early could help a lot of people. Using MRI scans to classify whether patients might develop AD.
 
