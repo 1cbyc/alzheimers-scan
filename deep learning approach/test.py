@@ -2,8 +2,6 @@ from torchvision import transforms, datasets
 import torch
 import torchvision
 import torch.nn as nn
-from torch.utils.data import dataset, dataloader
-import numpy as np
 import torch.nn.functional as F
 
 from Recog_modelv1 import Net
@@ -19,7 +17,7 @@ data_transform = transforms.Compose([
 ])
 
 # update this path to your actual model location
-model.load_state_dict(torch.load('./Saved_Model/RecogModelv4.pt'))
+model.load_state_dict(torch.load('./Saved_Model/RecogModelv3.pt'))
 test_data = torchvision.datasets.ImageFolder("./data/resized_val", transform=data_transform)
 test_loader = torch.utils.data.DataLoader(test_data, batch_size=1, shuffle=False, num_workers=4)
 
