@@ -20,7 +20,7 @@ After testing different approaches, CSA with ML algorithms gave the best results
    - Tested SVM, Decision Trees, Random Forest, KNN
    - Used GridSearchCV for hyperparameter tuning
 
-## Reference
+## Research Reference I used
 https://www.inderscience.com/offers.php?id=117272
 
 ---
