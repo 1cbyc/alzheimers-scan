@@ -2,8 +2,6 @@ from torchvision import transforms, datasets
 import torch
 import torchvision
 import torch.nn as nn
-from torch.utils.data import dataset, dataloader
-import numpy as np
 import torch.nn.functional as F
 import os
 from Recog_modelv1 import Net 
